@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Public+Sans:ital,wght@0,200;1,200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#burger,
+[for=burger] {
+    display: none;
+}
+
+.header-content {
+    padding-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 33px;
+}
+
+.links ul {
+    display: flex;
+
+    list-style: none;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+.header-div {
+    display: flex;
+    gap: 41px;
+}
+
+.links ul li a {
+    color: #36536B;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 0.7;
+    display: flex;
+
+    text-decoration: none;
+}
+
+.header-btn button {
+    border-radius: 24px;
+    background: #BA4270;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    width: 173px;
+    height: 48px;
+    color: #FBFCFE;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.115px;
+    text-transform: uppercase;
+    border: none;
+}
+
+/* birinchi */
+.img-right img {
+    /* width: 257.649px; */
+    height: 498.861px;
+}
+
+h1 {
+    color: #36536B;
+    font-family: DM Serif Display;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 72px;
+    /* 100% */
+    letter-spacing: -0.554px;
+    width: 546px;
+    height: 243px;
+    padding-top: 152px;
+}
+
+.birinchi-contnet {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* ikkinchi */
+
+.ikkinchi {
+    background: #1B262F;
+
+}
+
+h2 {
+    color: #FBFCFE;
+    font-family: DM Serif Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;
+    /* 116.667% */
+    letter-spacing: -0.369px;
+    padding-top: 50px;
+    padding-bottom: 24px;
+}
+
+.ikki-p {
+    color: #FBFCFE;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 186.667% */
+    max-width: 445px;
+    padding-bottom: 32px;
+}
+
+.ikki-btn button {
+    width: 129px;
+    height: 48px;
+    border-radius: 24px;
+    border: 1px solid #FBFCFE;
+    color: #FBFCFE;
+    text-align: center;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.115px;
+    background: none;
+
+}
+
+.ikki-btn {
+    padding-bottom: 100px;
+}
+
+.ikkinchi-content {
+    display: flex;
+    gap: 130px;
+}
+
+.ikki-img ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 30px;
+    margin-top: 20px;
+    padding-top: 192px;
+}
+
+/* uchinchi */
+
+.uchinchi-content {
+    display: flex;
+    padding-top: 150px;
+}
+
+h3 {
+    color: #36536B;
+    font-family: DM Serif Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 56px;
+    /* 116.667% */
+    letter-spacing: -0.369px;
+    padding-top: 125px;
+}
+
+
+.uch-p {
+    color: #6C8294;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    /* 186.667% */
+    width: 445px;
+}
+
+/* tortinchi */
+.tortinchi-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-img {
+    margin: 0 auto;
+}
+
+.card {
+    text-align: center;
+
+    padding-top: 120px;
+    padding-bottom: 72px;
+}
+
+h4 {
+    color: #36536B;
+    text-align: center;
+    font-family: Public Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    /* 138.889% */
+    letter-spacing: -0.138px;
+    padding-top: 32px;
+    padding-bottom: 16px;
+}
+
+.card-p {
+    width: 350px;
+    color: #6C8294;
+    text-align: center;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    /* 166.667% */
+    letter-spacing: -0.115px;
+}
+
+/* footer */
+footer {
+    background: #1B262F;
+    height: auto;
+}
+
+.footer-content {
+    display: flex;
+    padding: 31px;
+    justify-content: space-between;
+}
+
+.footer-text ul {
+    display: flex;
+    padding-left: 64px;
+
+    list-style: none;
+    gap: 40px;
+    margin-top: 10px;
+}
+
+.footer-text ul li a {
+    color: #FBFCFE;
+    font-family: Public Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    opacity: 0.7;
+    display: flex;
+
+    text-decoration: none;
+}
+
+@media screen and (max-width:1024px) {
+    .birinchi-contnet {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    h1 {
+        color: #36536B;
+        text-align: center;
+        font-family: DM Serif Display;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 56px;
+        /* 116.667% */
+        letter-spacing: -0.369px;
+
+
+    }
+
+    .birinchi {
+        margin: 0 auto;
+    }
+
+    .ikkinchi-content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .uchinchi-content {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .container {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    .ikki-img {
+        align-items: center;
+    }
+
+    .footer-content {
+        gap: 20px;
+        align-items: center;
+    }
+
+    .card-p {
+        width: 223px;
+    }
+
+    h3 {
+        max-width: 573px;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    .birinchi-contnet {
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+
+    .footer-content {
+        display: block;
+        align-items: center;
+    }
+
+    .footer-text ul li a {
+        display: block;
+    }
+
+    .footer-text ul {
+        display: block;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .uch-img img {
+        width: 328px;
+        height: 209px;
+        padding-bottom: 20px;
+    }
+
+    .footer {
+        background-color: #1B262F;
+        width: 375px;
+        height: auto;
+    }
+
+    header .links ul {
+        display: none;
+        position: fixed;
+        top: 0;
+        margin-top: 30px;
+        background: #514e4f;
+        width: 80%;
+    }
+
+    header .header-div {
+        display: none;
+    }
+
+
+
+    h2 {
+        color: #FBFCFE;
+        text-align: center;
+        font-family: DM Serif Display;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px;
+        /* 112.5% */
+        letter-spacing: -0.246px;
+        padding-top: 0;
+    }
+
+
+    .ikki-p {
+        color: #FBFCFE;
+        text-align: center;
+        font-family: Public Sans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        /* 186.667% */
+        padding: 0 24px;
+    }
+
+    .ikkinchi {
+        max-width: 576px;
+        max-height: 680px;
+        background: #1B262F;
+    }
+
+    h1 {
+        color: #36536B;
+        text-align: center;
+        font-family: DM Serif Display;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px;
+        /* 112.5% */
+        letter-spacing: -0.246px;
+        max-width: 327px;
+    }
+
+    .ikki-img ul {
+        padding-top: 95px;
+        margin: 0;
+    }
+
+    .ikkinchi-content {
+        flex-direction: column-reverse;
+        gap: 59px;
+        align-items: center;
+    }
+
+    .container {
+        max-width: 320px;
+    }
+
+    .ikki-btn {
+        margin: 0 auto;
+        padding-top: 46px;
+    }
+
+    .ikkinchi-contnet {
+        flex-direction: column-reverse;
+        height: 670px;
+        align-items: center;
+    }
+
+    .uchinchi-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-p {
+        width: 223px;
+    }
+
+    .tortinchi-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tortinchi {
+        margin: 0 auto;
+    }
+
+    .uch-p {
+        color: #6C8294;
+        text-align: center;
+        font-family: Public Sans;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        /* 186.667% */
+        width: 328px;
+    }
+
+    .card {
+        margin: auto;
+    }
+
+    h3 {
+        width: 327px;
+        color: #36536B;
+        text-align: center;
+        font-family: DM Serif Display;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px;
+        /* 100% */
+        letter-spacing: -0.277px;
+    }
+
+
+    [for=burger] {
+        display: block;
+        /* position: fixed; */
+        width: 30px;
+        text-align: center;
+        right: 20px;
+        top: 10px;
+    }
+
+
+
+    #burger:checked+label+.header-div {
+        display: block;
+    }
+
+    .container {
+        max-width: 80%;
+    }
+}
